@@ -1,0 +1,110 @@
+.teachers{
+	width: 100%;
+	background-image:  url('../img/foto1.png'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 500px;
+	
+}
+
+.wrapper{
+    padding-top: 20px;
+	text-align: center;
+	
+	margin: 0 auto;
+	width: 900px;
+}
+
+.teac{
+	font-size: 22px;
+	color: #ffffff;
+	letter-spacing: 1.1px;
+}
+
+.teacher{
+
+	justify-content: center;
+	display: flex;
+	height: 300px;
+	
+}
+
+.block_teacher{
+	border: 1px solid #e1e1e1;
+	margin: 10px;
+	width: 185px;
+	
+	
+}
+.block_teacher:hover{
+	
+	border: 1px solid #00e0d0;
+}
+.block_teacher:hover .name_1 {
+	color: #00e0d0;
+}
+
+.block_teacher:hover .subject {
+	color: #00e0d0;
+}
+
+.foto_teacher{
+height: 70%;
+
+background: white;
+}
+
+.name_teacher{
+height: 30%;
+justify-content: center;
+word-wrap:break-word;
+}
+
+.name_1{
+color: #ffffff;
+font-family: "Roboto - Black";
+font-size: 14px;
+letter-spacing: 0.7px;
+text-transform: uppercase;
+}
+
+.subject{
+opacity: 0.7;
+color: #fafafa;
+font-family: Roboto;
+font-size: 13px;
+text-transform: uppercase;
+}
+
+
+
+.buttom_teacher{
+    
+	width: 200px;
+	margin: 40px auto;
+	
+}
+
+.buttom_te{
+width: 200px;
+padding: 10px;
+color: #00e0d0;
+font-family: "Hammersmith One";
+font-size: 16px;
+text-decoration: none;
+text-transform: uppercase;
+transition: background-color 0.8s ease-in-out,
+color 0.8s ease-in-out;
+border: 1px solid #00e0d0;
+border-radius: 15px;
+
+
+}
+
+
+.buttom_te:hover{
+
+	background-color: #00e0d0;
+	color: #ffffff;
+}
